@@ -30,6 +30,7 @@ public class Calculator {
         int rsl3 = calculator.multiply(5);
         int rsl4 = calculator.divide(5);
         int rsl5 = calculator.sumAllOperation(5);
+
         System.out.println(rsl);
         System.out.println(rsl2);
         System.out.println(rsl3);
