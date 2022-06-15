@@ -84,6 +84,7 @@ public class BankService {
                 || destAccount == null) {
             return false;
         }
+
         else {
             srcAccount.setBalance(srcAccount.getBalance() - amount);
             destAccount.setBalance(destAccount.getBalance() + amount);
