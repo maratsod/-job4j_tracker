@@ -37,6 +37,5 @@ public class FunctionalInterfaces {
         for (String s : strings) {
             con.accept(func.apply(s));
         }
-
     }
 }
