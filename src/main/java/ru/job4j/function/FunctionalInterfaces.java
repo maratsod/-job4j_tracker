@@ -11,8 +11,8 @@ public class FunctionalInterfaces {
         Map<Integer, String> map = new HashMap<>();
         List<String> list = List.of("one", "two", "three", "four", "five", "six", "seven");
         BiConsumer<Integer, String> biCon = map::put;
-        int count = 1;
 
+        int count = 1;
         for (String s : list) {
             biCon.accept(count++, s);
         }
