@@ -69,6 +69,7 @@ public class BankService {
         }
         return null;
     }
+
     /**
      * Метод предназначен для перечисления денег с одного счёта на другой счёт
      * @param srcPassport номер паспорта и srcRequisite реквизиты счета источника
