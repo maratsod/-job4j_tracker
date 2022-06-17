@@ -14,6 +14,7 @@ public class FunctionalInterfaces {
         for (String s : list) {
             biCon.accept(count++, s);
         }
+
         for (int i : map.keySet()) {
             System.out.println(i + " - " + map.get(i));
         }
