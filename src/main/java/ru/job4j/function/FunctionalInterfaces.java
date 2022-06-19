@@ -22,7 +22,7 @@ public class FunctionalInterfaces {
         }
 
         BiPredicate<Integer, String> biPred = (index, s)
-                -> index % 2 == 0 || map.get(index).length() == 4;
+                -> index % 2 == 0 || s.length() == 4;
         for (Integer i : map.keySet()) {
             if (biPred.test(i, map.get(i))) {
                 System.out.println("key: " + i + " value: " + map.get(i));
