@@ -7,7 +7,7 @@ import static org.junit.Assert.assertThat;
 
 public class JobSorterTest {
     @Test
-    public void whenCompatorByNameAndPrority() {
+    public void whenCompatoreByNameAndPrority() {
         Comparator<Job> cmpNamePriority = new JobDescByName().thenComparing(new JobDescByPriority());
         int rsl = cmpNamePriority.compare(
                 new Job("Impl task", 0),
